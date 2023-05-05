@@ -21,7 +21,7 @@ function Card() {
         <div className={classe}>
             Oii
             <br />
-            <button onClick={()=>{}}>Girar</button>
+            <button onClick={()=>{setDependencia(true)}}>Girar</button>
         </div>
     );
 }
